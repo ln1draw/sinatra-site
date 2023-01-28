@@ -1,0 +1,9 @@
+%head
+    %title
+        = page + " | LN Wondra"
+    %link{rel: :stylesheet, type: "text/css", href: "application.css"}
+
+%body
+    %header
+        != haml :_navbar
+    != yield

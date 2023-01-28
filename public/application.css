@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Roboto&display=swap');
+
+:root {
+    --primary-color: #3F88C5;
+    --light-detail: #dadada;
+    --dark-detail: #464646;
+    --text-background: #f6f6f6;
+    --header-font: 'Raleway', sans-serif;
+    --p-font: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: var(--light-detail);
+}
+
+header {
+    text-align: center;
+    padding-top: 2rem;
+}
+
+header ul {
+    padding-left: 0px;
+}
+
+header li {
+    display: inline-block;
+    list-style: none;
+}
+
+header a, header a:visited {
+    color: var(--dark-detail);
+}
+
+header a {
+    font-size: 2rem;
+    padding: 0.25rem;
+    text-decoration: underline;
+    text-decoration-thickness: 0.25rem;
+    text-underline-offset: 0.125rem;
+    text-decoration-color: var(--primary-color);
+}
+
+header a:hover {
+    font-style: italic;
+}
+
+header h2 a {
+    font-size: 3rem;
+}
+
+section {
+    border: 0.25rem solid var(--primary-color);
+    border-radius: 1.5rem;
+    background-color: var(--text-background);
+    max-width: 85%;
+    padding: 3rem;
+    margin: 2rem auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--header-font);
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
+h1, h4, p {
+    color: var(--dark-detail)
+}
+
+p {
+    font-family: var(--p-font);
+    font-size: 1.25rem;
+}
+
+a {
+    font-family: var(--header-font);
+}
+
+.display-img {
+    width: 80%;
+    max-width: 700px;
+    margin: auto;
+    display: block;
+    border: 0.25rem solid  var(--primary-color);
+    border-radius: 1.5rem;
+    margin-bottom: 3rem;
+}
